@@ -37,7 +37,9 @@ def process_matrix_flow(message, history):
             "Для вывода логов ядра отправьте системную команду: /status или /defrag."
         )
         
-    history.append((message, reply))
+    # Строгий формат словарей для Gradio 5.x
+    history.append({"role": "user", "content": message})
+    history.append({"role": "assistant", "content": reply})
     return "", history
 
 with gr.Blocks() as demo:
@@ -46,6 +48,7 @@ with gr.Blocks() as demo:
         f"### {VERSION} // {SYSTEM_STATUS}"
     )
     
+    # В Gradio 5.x тип 'messages' используется автоматически, если мы передаем словари
     chatbot = gr.Chatbot(label="Amanita Stream Log")
     
     with gr.Row():
