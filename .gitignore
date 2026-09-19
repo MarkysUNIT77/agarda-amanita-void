@@ -1,0 +1,15 @@
+# ===================================================================
+# A.G.A.R.D.A. | CORE 11.0_OVERCLOCK | PUBLIC LAYER // NODE GAMMA
+# ===================================================================
+# Экосистема: agarda-amanita-void // Проект МУХОМОР // v110.0-HD
+# Licensed under Apache License 2.0 (c) 2026 Markys Gariboldo
+# ===================================================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.pytest_cache/
+flagged/
