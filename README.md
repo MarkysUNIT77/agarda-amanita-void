@@ -1,7 +1,7 @@
 # 🛰️ agarda-amanita-void | Проект МУХОМОР | v110.0-HD
 
 <p align="center">
-  <img src="poster.jpg" alt="A.G.A.R.D.A. Core 11.0 Topology Graph" width="600px">
+  <img src="poster.jpg" alt="A.G.A.R.D.A. Core 11.0 Topology Graph" width="100%">
 </p>
 
 ### A.G.A.R.D.A. | CORE 11.0_OVERCLOCK | NODE GAMMA
